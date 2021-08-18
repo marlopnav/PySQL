@@ -18,7 +18,7 @@ class Ui_DBViewerWindow(object):
     def setupUi(self, DBViewerWindow):
         if not DBViewerWindow.objectName():
             DBViewerWindow.setObjectName(u"DBViewerWindow")
-        DBViewerWindow.resize(515, 386)
+        DBViewerWindow.resize(515, 387)
         sizePolicy = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -61,7 +61,7 @@ class Ui_DBViewerWindow(object):
 #endif
         DBViewerWindow.setPalette(palette)
         icon = QIcon()
-        icon.addFile(u":/icons/icons/Merge.svg", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u":/icons/icons/Coreso.png", QSize(), QIcon.Normal, QIcon.Off)
         DBViewerWindow.setWindowIcon(icon)
         self.actionReload = QAction(DBViewerWindow)
         self.actionReload.setObjectName(u"actionReload")

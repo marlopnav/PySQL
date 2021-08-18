@@ -8,7 +8,9 @@ from PySide2 import QtGui
 from src.GUI.gui import Ui_DBViewerWindow
 # from src.GUI.gui_threading import MergeThread
 from src.core.sqlHandler import DataBase
-
+"""
+To be stored in: Z:\CORESO tree\18-Projects\16 - D2 SWE\03 - EXPERIMENTATION\KPI DataBase
+"""
 
 def find_file(name, path):
     """
@@ -39,7 +41,7 @@ class DBViewerWindow(QMainWindow):
 
         # variables
         self.split_folder = ''
-        self.db_path = '../research/CRAC_info.db'
+        self.db_path = r'Z:\CORESO tree\18-Projects\16 - D2 SWE\03 - EXPERIMENTATION\KPI DataBase/CRAC_info.db'
         self.db =DataBase(self.db_path)
 
         self.sconexion = "Successfuly connected to DB"
@@ -167,7 +169,7 @@ class DBViewerWindow(QMainWindow):
         self.ui.LabelStatus.setStyleSheet("color: blue")
 
 
-def runReePlexosMerge():
+def runDBViewer():
     """
 
     :return:
@@ -181,4 +183,4 @@ def runReePlexosMerge():
 
 if __name__ == "__main__":
 
-    runReePlexosMerge()
+    runDBViewer()

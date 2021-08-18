@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>515</width>
-    <height>386</height>
+    <height>387</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -192,8 +192,8 @@
    <string>Coreso SQLite Viewer</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/icons/icons/Merge.svg</normaloff>:/icons/icons/Merge.svg</iconset>
+   <iconset resource="icons.qrc">
+    <normaloff>:/icons/icons/Coreso.png</normaloff>:/icons/icons/Coreso.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">

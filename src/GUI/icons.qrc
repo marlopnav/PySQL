@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icons/Coreso.png</file>
     <file>icons/ms-excel.svg</file>
     <file>icons/refresh.svg</file>
     <file>icons/save.svg</file>
